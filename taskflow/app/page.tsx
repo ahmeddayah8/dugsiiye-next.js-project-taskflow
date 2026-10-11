@@ -1,0 +1,2 @@
+import Link from 'next/link';
+export default function Home(){return <main className="min-h-screen flex flex-col items-center justify-center gap-6 px-4 text-center"><h1 className="text-5xl font-bold text-indigo-700">TaskFlow</h1><p className="text-lg text-slate-600">Manage your tasks in one place.</p><div className="flex gap-3"><Link className="bg-indigo-600 text-white px-6 py-3 rounded-lg" href="/register">Get started</Link><Link className="border px-6 py-3 rounded-lg" href="/login">Login</Link></div></main>}
